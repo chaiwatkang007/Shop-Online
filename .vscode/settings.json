@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/08070b10-8570-4bff-a62f-e34f18c6b021/resourceGroups/demo-seniorproject-rg/providers/Microsoft.Web/sites/seniorproject-app",
+    "appService.deploySubpath": "."
+}

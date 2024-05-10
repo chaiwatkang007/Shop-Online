@@ -1,0 +1,16 @@
+{
+    "extends": "./client/tsconfig.json",
+    "compilerOptions": {
+      "module": "commonjs",
+      "outDir": "dist",
+      "target": "es2019",
+      "isolatedModules": false,
+      "noEmit": false,
+      "jsx": "react",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "strictPropertyInitialization": false
+    },
+    "include": ["server/**/*.tsx"],
+}
+  

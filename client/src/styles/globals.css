@@ -1,0 +1,321 @@
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  height: 30px;
+}
+.nav-links {
+  display: flex;
+  margin-right: 0;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.Card1{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.shop-card {
+  width: 350px;
+  background: #af1414;
+  box-shadow: 0 10px 20px rgba(0,0,0,.3);
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  z-index: 2;
+  position: fixed;
+
+  
+}
+
+.body{
+  background-color: #aee1f3;
+  height: 100vh;
+  z-index: -1; 
+  overflow: scroll;
+}
+
+.CCard {
+  grid-template-columns: repeat(5, 1fr);
+  display: flex0;
+  justify-content: center;
+}
+.icon{
+  position: relative;
+}
+.cartcount {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 19px;
+  z-index: 1; /* ทับที่ไอคอน */
+}
+
+.demo-loadmore-list {
+  min-height: 350px;
+}
+
+.swal2-input#password {
+  margin-top: 6px;
+  width: 61%;
+}
+
+.swal2-input#email {
+  margin-top: 1px;
+}
+.swal2-input#role {
+  margin-top: 3px;
+}
+
+.popup {
+  background-color: white;
+  position: fixed;
+  top: 40px;
+  left: 81px;
+  width: 30%;
+  height: 38%;
+  border-radius: 30px;
+  z-index: 99999;
+}
+
+.popupuser {
+  background-color: white;
+  position: relative;
+  top: -850px;
+  left: 160px;
+  width: 30%;
+  height: 38%;
+  border-radius: 30px;
+  z-index: 99999;
+}
+
+.popupadmin {
+  background-color: white;
+  position: fixed;
+  top: 50px;
+  left: 160px;
+  width: 30%;
+  height: 38%;
+  border-radius: 30px;
+  z-index: 99999;
+}
+
+.popupsuper {
+  background-color: white;
+  position: fixed;
+  top: 40px;
+  left: 320px;
+  width: 30%;
+  height: 38%;
+  border-radius: 30px;
+  z-index: 99999;
+}
+
+.poplist {
+  list-style-type: none;
+  padding: 0;
+  background-color: #000;
+  height: 60%;
+  width: 100%;
+  max-height: 400px; 
+  overflow-y: auto; 
+}
+
+.poplist li {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.poplist img {
+  margin-top: 3px;
+  width: 30px;
+  height: 30px;
+}
+
+.Total{
+  display: flex;
+  position: relative;
+  top: -70px;
+  left: 16px;
+}
+
+.adminbg{
+  background-color: white;
+  height: 100vh;
+}
+
+.bg {
+  background-image: url("../public/back1.gif");
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.beforelogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.beforelogin form {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.beforelogin label,
+.beforelogin input[type="text"],
+.beforelogin input[type="password"] {
+  display: block;
+  margin-bottom: 10px;
+}
+.cc {
+  margin-top: 10px;
+}
+
+.container .signin {
+  display: flex;
+  justify-content: center;
+}
+
+.b{
+  margin-top: 1%;
+}
+
+.buttonlogin {
+  margin-top: 5%;
+  width: 100%;
+}
+
+.bbg {
+  background-image: url("../public/back1.gif");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1{
+  font-size: 45px;
+  color: #f33900;
+  font-weight: 700;
+  transition: 0.5s;
+  margin-top: 45%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Georgia', sans-serif;
+}
+
+.content h1:hover {
+  -webkit-text-stroke: 2.5px rgb(242, 227, 19);
+  color: transparent;
+}
+
+.hh{
+  display: flex;
+  justify-content: center;
+}
+
+.ee{
+  padding-left: 10%;
+}
+
+
+.pagination {
+  margin-top: 20px; 
+}
+
+
+/*............................................*/
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/********** Register ****************/
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.register .signup {
+  display: flex;
+  justify-content: center;
+}
+.register form {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.register label .beforelogin input[type="text"],
+.beforelogin input[type="password"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(247, 246, 252);
+  color: rgb(70, 71, 81);
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu {
+  background-color: gray;
+  width: calc(100% -60%); 
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  z-index: 3;
+}
+
+.menu div {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+
